@@ -1,22 +1,18 @@
 ﻿Build1=Default,com.stoltex.BottomWheelDateTimePicker
-File1=frm_BottomWheelDateTimePicker.bil
-File2=frm_main.bil
+File1=frm_main.bil
 FileGroup1=Default Group
-FileGroup2=Default Group
 Group=Default Group
 Library1=as_wheeldatetimepicker
 Library2=asdraggablebottomcard
-Library3=b4xpages
-Library4=icore
-Library5=xui views
-Library6=aswheelpicker
-Module1=|relative|..\..\AS_BottomWheelDateTimePicker
-Module2=|relative|..\..\..\AS_WheelDateTimePicker\AS_WheelDateTimePicker
-Module3=|relative|..\..\..\AS_WheelPicker\ASWheelPicker
-Module4=|relative|..\B4XMainPage
-NumberOfFiles=2
-NumberOfLibraries=6
-NumberOfModules=4
+Library3=aswheelpicker
+Library4=b4xpages
+Library5=icore
+Library6=xui views
+Library7=as_bottomwheeldatetimepicker
+Module1=|relative|..\B4XMainPage
+NumberOfFiles=1
+NumberOfLibraries=7
+NumberOfModules=1
 Version=8.45
 @EndOfDesignText@
 'Code module

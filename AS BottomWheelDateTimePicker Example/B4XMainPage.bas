@@ -38,11 +38,12 @@ Private Sub OpenSheetTimePicker(DarkMode As Boolean)
 	BottomWheelDateTimePicker.ActionButtonVisible = True
 	
 	BottomWheelDateTimePicker.PickerType = BottomWheelDateTimePicker.PickerType_TimePicker
-	BottomWheelDateTimePicker.TimePicker_TimeDivider = True
+	BottomWheelDateTimePicker.TimePicker_TimeUnit = True 'Show TimePicker_HourShortText and TimePicker_MinuteShortText
 	BottomWheelDateTimePicker.TimePicker_ShowAMPM = False
-	'BottomWheelDateTimePicker.TimePicker_ShowDate = True
-'	BottomWheelDateTimePicker.TimePicker_HourShort = "hour"
-'	BottomWheelDateTimePicker.TimePicker_MinuteShort = "min"
+'	BottomWheelDateTimePicker.TimePicker_TimeDivider = True
+'	BottomWheelDateTimePicker.TimePicker_ShowDate = True
+'	BottomWheelDateTimePicker.TimePicker_HourShortText = "hour"
+'	BottomWheelDateTimePicker.TimePicker_MinuteShortText = "min"
 '	BottomWheelDateTimePicker.Hour = 13 'Only Works in Release mode
 '	BottomWheelDateTimePicker.Minute = 46 'Only Works in Release mode
 	BottomWheelDateTimePicker.ShowPicker
@@ -58,6 +59,7 @@ Private Sub OpenSheetTimePicker(DarkMode As Boolean)
 	#End If
 
 	BottomWheelDateTimePicker.HidePicker
+	
 End Sub
 
 Private Sub OpenSheetDatePicker(DarkMode As Boolean)
@@ -67,8 +69,8 @@ Private Sub OpenSheetDatePicker(DarkMode As Boolean)
 	BottomWheelDateTimePicker.ActionButtonVisible = True
 	
 	BottomWheelDateTimePicker.PickerType = BottomWheelDateTimePicker.PickerType_DatePicker
-	BottomWheelDateTimePicker.DatePicker_MaxDate = DateTime.Now
-	BottomWheelDateTimePicker.Date = DateUtils.SetDate(2025,1,4)
+'	BottomWheelDateTimePicker.DatePicker_MaxDate = DateTime.Now
+'	BottomWheelDateTimePicker.Date = DateUtils.SetDate(2025,1,4)
 	BottomWheelDateTimePicker.ShowPicker
 	
 	BottomWheelDateTimePicker.ActionButton.Text = "Choose"

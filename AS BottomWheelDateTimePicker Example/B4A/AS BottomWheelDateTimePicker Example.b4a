@@ -1,22 +1,23 @@
-﻿Build1=Default,b4a.example
+﻿Build1=Default,com.stoltex.BottomWheelDateTimePicker
 File1=frm_main.bal
 FileGroup1=Default Group
 Group=Default Group
 Library1=asdraggablebottomcard
-Library2=b4xpages
-Library3=core
-Library4=xui views
-ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.DarkTheme)~\n~'End of default text.~\n~
-Module1=|relative|..\..\AS_BottomActionSheet
-Module2=|relative|..\B4XMainPage
-Module3=Starter
+Library2=aswheelpicker
+Library3=b4xpages
+Library4=core
+Library5=xui views
+Library6=as_bottomwheeldatetimepicker
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.DarkTheme)~\n~'End of default text.~\n~
+Module1=|relative|..\B4XMainPage
+Module2=Starter
 NumberOfFiles=1
-NumberOfLibraries=4
-NumberOfModules=3
+NumberOfLibraries=6
+NumberOfModules=2
 Version=12.8
 @EndOfDesignText@
 #Region  Project Attributes 
-	#ApplicationLabel: B4A Example
+	#ApplicationLabel: AS BottomWheelDateTimePicker Example
 	#VersionCode: 1
 	#VersionName: 
 	'SupportedOrientations possible values: unspecified, landscape or portrait.

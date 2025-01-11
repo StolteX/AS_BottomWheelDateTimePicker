@@ -38,7 +38,7 @@ Sub Class_Globals
 	Private m_DateTimePickerTheme As AS_WheelDateTimePicker_Theme
 	Private m_ActionButtonColor As Int
 	Private m_ActionButtonTextColor As Int
-	Private m_PickerHeight As Float = 200dip
+	Private m_PickerHeight As Float = 250dip
 	
 	Type AS_BottomWheelDateTimePicker_Theme(BodyColor As Int,DragIndicatorColor As Int,ActionButtonColor As Int,ActionButtonTextColor As Int,DateTimePickerTheme As AS_WheelDateTimePicker_Theme)
 	
